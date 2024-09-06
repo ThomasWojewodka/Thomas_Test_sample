@@ -1,0 +1,73 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #003366; /* Dark blue header */
+  padding: 10px; /* Reduced padding */
+}
+
+.App-header h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Reduced padding */
+}
+
+.widgets-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Reduced gap between widgets */
+  justify-content: center;
+  margin-top: 10px; /* Reduced margin */
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  background-color: #003366; /* Same background color as the header */
+  color: white; /* Same text color as the header */
+  margin: 10px; /* Reduced margin */
+  padding: 5px; /* Reduced padding inside the widget */
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+/* Widget sizes */
+.widget-small {
+  width: 300px;
+  height: 300px;
+}
+
+.widget-medium {
+  width: 610px;
+  height: 300px;
+}
+
+.widget-large {
+  width: 610px;
+  height: 610px;
+}
+
+button {
+  margin: 5px; /* Reduced button margin */
+  padding: 5px; /* Reduced button padding */
+  font-size: 14px; /* Slightly smaller button font */
+  cursor: pointer;
+}
+
+.add-widget-btn {
+  margin-bottom: 10px; /* Reduced margin */
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 16px; /* Slightly smaller button font */
+  cursor: pointer;
+}
